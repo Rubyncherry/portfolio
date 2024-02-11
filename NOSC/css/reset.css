@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://webfontworld.github.io/knps/KNPSBandali.css');
+
+
+body{font-family: 'KNPSBandali'; font-size: 16px;font-weight: normal; line-height: 1;  color: #fff;}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, address, sub, tt, var, u, i, di, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, nav{margin: 0; padding: 0; border: 0; vertical-align: baseline;}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {display: block;}
+
+ul, li, ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+button{cursor: pointer;}
+strong{font-weight: normal;}
+em{font-style: normal;}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+#wrap{overflow-x: hidden; }
+
+/* Header */
+#header{position: relative; background-color: #11273f;}
+.headerWrap{max-width: 1920px; height: 123px; margin: 0 auto; position: relative;}
+.headerWrap .btnHome{position: absolute; left: 40px; top: 51px;}
+
+.headerWrap .menu{position: absolute; left: 50%; top: 44px; transform: translateX(-50%); width: 1090px;}
+.headerWrap .menu li{float: left; width: 218px;}
+.headerWrap .menu li a{display: block;text-align: center; font-size: 18px; line-height: 40px; position: relative;}
+.headerWrap .menu li a::before{content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -10px; width: 0; height: 4px; background-color: #ffbc00; opacity: 0; border-radius: 2px; transition: all 0.25s ease-out;}
+.headerWrap .menu li a:hover:before{width: 40%; opacity: 1;}
+.headerWrap .menu li a:hover{color: #ffbc00;}
+
+.headerWrap .btnMenu{position: absolute; right: 40px; top: 48px; width: 24px; height: 24px; background-color: transparent; border: 0;}
+.headerWrap .btnMenu .line{background-color: #fff; width: 20px; height: 2px;border-radius: 1px; position: absolute; left: 0; top: 0; transition: all 0.25s ease-out;}
+.headerWrap .btnMenu .line2{top: 7px;}
+.headerWrap .btnMenu .line3{top: 14px;}
+.headerWrap .btnMenu.on .line1{top: 10px; transform: rotate(135deg);}
+.headerWrap .btnMenu.on .line2{left: -100px; opacity: 0;}
+.headerWrap .btnMenu.on .line3{top: 10px; transform: rotate(-135deg);}
+
+.sideMenu{position: absolute; right: -390px; top: 80px; width: 390px; height: 900px; background-color: rgba(3, 11, 20, 0.85); color: white; border-radius: 30px 0 0 30px; padding: 50px; box-sizing: border-box;}
+
+
+
+/* Content */
+#content{background: #0d1723 url(../images/bg.jpg) no-repeat center top;}
+.contentWrap{max-width: 1920px;height: 4850px; margin: 0 auto; border: 3px solid gold;}
+.contentWrap .mainLogo{display: block; margin: 0 auto; padding-top: 123px;}
+
+.contentWrap .sec{}
+.contentWrap .sec .box .t1{font-size: 18px; color: #ffbc00; margin: 30px 0 15px 0;}
+.contentWrap .sec .box .t2{ line-height: 26px; margin-top: 15px;}
+.contentWrap .sec .box .t3{font-size: 20px; margin-top: 15px;}
+.contentWrap .sec .box .t4{font-size: 46px; margin-top: 20px;}
+.contentWrap .sec .box .t5{font-size: 60px; color: #ffbc00;}
+.contentWrap .sec .box .t6{font-size: 30px; margin-top: 15px;}
+.contentWrap .sec .box a{display: inline-block; width: 198px; height: 60px; border: 1px solid #ffbc00; font-size: 18px; line-height: 60px;color: #ffbc00; text-align: center; margin-top: 15px; transition: all 0.2s ease-out; border-radius: 30px;}
+.contentWrap .sec .box a:hover{background-color: #ffbc00; color: #fff;}
+
+.contentWrap .sec1{width: 494px; height: 184px; margin: 291px auto 0 auto; text-align: center;}
+.contentWrap .sec1 .tit{font-size: 34px; font-weight: 700; color: #ffbc00; padding-top: 30px;}
+.contentWrap .sec1 .txt{font-size: 20px; line-height: 32px; padding-top: 25px;}
+.contentWrap .sec2{width: 1140px; height: 650px; margin: 140px auto 0 auto; position: relative;}
+.contentWrap .sec2 .img1{position: absolute; left: 114px; top: 83px;}
+.contentWrap .sec2 .box{position: absolute; right: 0; top: 35px; width: 500px;}
+.contentWrap .sec2 .imgList{position: absolute; left: 0; bottom: 0; width: 100%;}
+.contentWrap .sec2 .imgList li{float: left; width: 33.333%;height: 256px; position: relative;}
+.contentWrap .sec2 .imgList li .img2{position: absolute;left: 0; bottom: 0;}
+.contentWrap .sec3{width: 1140px; height: 405px; margin: 0 auto;position: relative;}
+.contentWrap .sec3 .img3{position: absolute; left: 114px; top: 50px;}
+.contentWrap .sec3 .box{position: absolute; right: 0; top: 35px; width: 500px;}
+.contentWrap .sec4{width: 1140px; height: 438px; margin: 0 auto;position: relative;}
+.contentWrap .sec4 .img4{position: absolute; right: 70px;; top: 80px;}
+.contentWrap .sec4 .box{position: absolute; left: 115px; top: 35px; width: 450px; letter-spacing: -1px;}
+.contentWrap .sec5{width: 1140px; height: 490px; margin: 0 auto;}
+.contentWrap .sec5 .boxList li{float: left; width: 33.333%; text-align: center;}
+.contentWrap .sec6{width: 1392px;margin: 0 auto;text-align: center;}
+.contentWrap .sec6 .box{text-align: right; padding-right: 150px; padding-top: 35px;}
+
+
+/* Footer */
+#footer{display: block;}
+#footer .row1{background-color: #6178a1; line-height: 42px; text-align: center;}
+#footer .row2{background-color: #060f1e; padding: 20px 0; text-align: center;}
+#footer .row3{background-color: #f6bf27; line-height: 53px; text-align: center;}
